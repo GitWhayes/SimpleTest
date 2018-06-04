@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>for troubleshooting zephyr</description>
+   <name>KatalonProject</name>
+   <tag></tag>
+   <UUID>6010bf58-c6ca-42de-aaf9-a90571521daa</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
