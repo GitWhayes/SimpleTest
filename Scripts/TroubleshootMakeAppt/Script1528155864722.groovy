@@ -24,28 +24,28 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://demoaut.katalon.com/')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service (3)/a_Make Appointment'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service (1)/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service (3)/input_username'), 'John Doe')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service (1)/input_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service (3)/input_password'), 'ThisIsNotAPassword')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service (1)/input_password'), 'ThisIsNotAPassword')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service (3)/button_Login'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service (1)/button_Login'))
 
-WebUI.selectOptionByValue(findTestObject('Page_CURA Healthcare Service (3)/select_Tokyo CURA Healthcare C'), 'Hongkong CURA Healthcare Center',
-	true)
+WebUI.selectOptionByValue(findTestObject('Page_CURA Healthcare Service (1)/select_Tokyo CURA Healthcare C'), 'Hongkong CURA Healthcare Center', 
+    true)
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service (3)/input_hospital_readmission'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service (1)/label_Apply for hospital readm'))
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service (3)/textarea_comment'), 'comment goes here')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service (1)/input_visit_date'), '08/14/2018')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service (3)/button_Book Appointment'))
+WebUI.setText(findTestObject('Page_CURA Healthcare Service (1)/textarea_comment'), 'enter another comment')
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service (3)/td_24'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service (1)/button_Book Appointment'))
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service (3)/button_Book Appointment'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service (1)/a_Go to Homepage'))
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service (3)/a_Go to Homepage'))
+WebUI.closeBrowser()
 
 WebUI.closeBrowser()
 
