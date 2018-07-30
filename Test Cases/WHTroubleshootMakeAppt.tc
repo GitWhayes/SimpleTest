@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Make an appointment</description>
-   <name>TroubleshootMakeAppt</name>
+   <name>WHTroubleshootMakeAppt</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1928d13c-9b9c-4675-9d3d-06131fa56cb8</testCaseGuid>

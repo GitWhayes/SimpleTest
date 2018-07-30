@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description>Troubleshooting test suite</description>
-   <name>TSTroubleshootFail</name>
+   <name>WHTSTroubleshootFail</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-07-30T18:11:36</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,12 +15,12 @@
       <guid>98653403-b398-4336-acf6-d8e970fc336a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TroubleshootMakeAppt</testCaseId>
+      <testCaseId>Test Cases/WHTroubleshootMakeAppt</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>7660256a-0577-48f1-b95d-2086e729fcb3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TroubleshootMakeApptFail</testCaseId>
+      <testCaseId>Test Cases/WHTroubleshootMakeApptFail</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

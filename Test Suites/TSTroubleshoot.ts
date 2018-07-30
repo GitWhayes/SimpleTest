@@ -14,6 +14,6 @@
       <guid>98653403-b398-4336-acf6-d8e970fc336a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TroubleshootMakeAppt</testCaseId>
+      <testCaseId>Test Cases/WHTroubleshootMakeAppt</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
