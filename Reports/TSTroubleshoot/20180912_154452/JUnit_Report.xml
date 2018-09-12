@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSTroubleshoot" time="9" tests="1" failures="0" errors="0">
+   <testsuite name="TSTroubleshoot" tests="1" failures="0" errors="0" time="9" timestamp="2018-09-12 15:44:54" hostname="graywa01 - USLB51TGH2.enterprisenet.org" id="Test Suites/TSTroubleshoot">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\graywa01\\git\\SimpleTest\\Reports\\TSTroubleshoot\\20180912_154452"/>
+         <property name="logFiles" value="C:\\Users\\graywa01\\git\\SimpleTest\\Reports\\TSTroubleshoot\\20180912_154452\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="graywa01 - USLB51TGH2.enterprisenet.org"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="10.5.66.202"/>
+         <property name="sessionId" value="b9a4d58f55b7975febc191d78c7e06e6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WHTroubleshootMakeAppt" classname="Test Cases/WHTroubleshootMakeAppt" status="PASSED">
+         <system-out><![CDATA[2018-09-12 15:44:55 - [TEST_CASE][PASSED] - Test Cases/WHTroubleshootMakeAppt: Test Cases/WHTroubleshootMakeAppt
+
+2018-09-12 15:44:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-12 15:45:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-12 15:45:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-09-12 15:45:01 - [MESSAGE][PASSED] - Navigate to 'http://demoaut.katalon.com/' successfully
+
+2018-09-12 15:45:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is clicked on
+
+2018-09-12 15:45:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/a_Make Appointment' is clicked on
+
+2018-09-12 15:45:01 - [TEST_STEP][PASSED] - setText: Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2018-09-12 15:45:02 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_username'
+
+2018-09-12 15:45:02 - [TEST_STEP][PASSED] - setText: Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2018-09-12 15:45:02 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_password'
+
+2018-09-12 15:45:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2018-09-12 15:45:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/button_Login' is clicked on
+
+2018-09-12 15:45:02 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (1)/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-09-12 15:45:03 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service (1)/select_Tokyo CURA Healthcare C'  using regular expression
+
+2018-09-12 15:45:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CURA Healthcare Service (1)/label_Apply for hospital readm' is clicked on
+
+2018-09-12 15:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service (1)/label_Apply for hospital readm' is clicked on
+
+2018-09-12 15:45:03 - [TEST_STEP][PASSED] - setText: Text '08/14/2018' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_visit_date'
+
+2018-09-12 15:45:03 - [MESSAGE][PASSED] - Text '08/14/2018' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/input_visit_date'
+
+2018-09-12 15:45:03 - [TEST_STEP][PASSED] - setText: Text 'enter another comment' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/textarea_comment'
+
+2018-09-12 15:45:03 - [MESSAGE][PASSED] - Text 'enter another comment' is set on object 'Object Repository/Page_CURA Healthcare Service (1)/textarea_comment'
+
+2018-09-12 15:45:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-12 15:45:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-12 15:44:54 - [TEST_SUITE][PASSED] - TSTroubleshoot: Test Cases/WHTroubleshootMakeAppt]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
