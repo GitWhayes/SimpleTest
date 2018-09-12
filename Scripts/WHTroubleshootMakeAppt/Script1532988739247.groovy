@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Page_CURA Healthcare Service (1)/label_Apply for hos
 
 WebUI.setText(findTestObject('Page_CURA Healthcare Service (1)/input_visit_date'), '08/14/2018')
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service (1)/textarea_comment'), 'enter another comment')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service (1)/textarea_comment'), 'enter another comment - hope success')
 
 WebUI.closeBrowser()
 
