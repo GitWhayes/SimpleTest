@@ -47,5 +47,3 @@ WebUI.click(findTestObject('Page_CURA Healthcare Service (1)/a_Go to Homepage'))
 
 WebUI.closeBrowser()
 
-WebUI.closeBrowser()
-

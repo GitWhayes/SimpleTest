@@ -4,6 +4,7 @@
    <name>TSTroubleshoot</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-09-12T15:26:38</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,5 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WHTroubleshootMakeAppt</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4eaacf33-2807-4dbb-ba8d-71a674167963</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WHTroubleshootMakeApptFail</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
